@@ -1,0 +1,86 @@
+body{
+    margin: 5px;
+    padding: 10px;
+    font-weight:200;
+    font-family: 'Roboto',sans-serif;
+}
+.calculator{
+    width: 50vw;
+    border:#f3f3f3 1px;
+    margin-left: 25vw;
+    margin-top: 10vh;
+    padding: 10px;
+    background-color:#f3f3f3;
+}
+.title{
+    margin-bottom: 10px;
+
+}
+.mr-2{
+    margin-right: 0.5em;
+}
+.title-text{
+    font-weight: 500;
+}
+.display{
+    width: 95%;
+    font-size: 3em;
+    padding: 20px 10px;
+    border:none;
+   text-align:right;
+    color: black;
+
+}
+.top-keys{
+    font-size: 0;
+    margin-bottom: 10px;
+}
+
+.top-keys button{
+    font-size: 1rem;
+    border: none;
+    width: 16%;
+    background-color: #f3f3f3;
+   
+}
+.gray-btn{
+    color: #c1c1c1
+}
+.keys{
+    font-size: 0;
+}
+.keys button{
+    font-size: 1rem;
+    background-color: #f9f9f9;
+    max-width: 24%;
+    width: 25%;
+    border: 1px #d7d7d7 solid;
+    border-radius: 5%;
+    height: 4em;
+    margin: 2px 2px;
+}
+.numbers button{
+    font-size: 1rem;
+    background-color:#ffffff ;
+   
+}
+
+.sub{
+    vertical-align: normal;
+    font-size: 0.8em;
+}
+.super{
+    vertical-align: super;
+    font-size: 0.5em;
+
+}
+.small button{ 
+    font-size: 0.5em;
+}
+.equalsnumber button{
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #015A9E; 
+}
+
+

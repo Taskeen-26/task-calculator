@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6c1e30e69c.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="calculator">
+    <div class="title">
+        <i class="mr-2 fa-solid fa-bars"></i>
+        <span class="mr-2 title-text">Standard</span>
+        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+    </div>
+ <input type="text" disabled value="0" id="display" class="display">
+ <div class="top-keys">
+    <button class="gray-btn">MC</button>
+    <button class="gray-btn">MR</button>
+    <button>M+</button>
+    <button>M-</button>
+    <button>MS</button>
+</div>
+ <div class="keys">
+    <span>
+            <button>%</button>
+            <button onclick="clearDisplay()">CE</button>
+            <button onclick="clearDisplay()">C</button>
+            <button onclick="deleteVal()"><i class="fa-solid fa-delete-left"></i></button>
+            <button>1<span class="normal">/x</span></button>
+            <button>x<span class="super">2</span></button>
+            <button><span class="small">2</span><i class="fa-solid fa-square-root-variable"></i></button>
+            <button><i class="fa-solid fa-divide"></i></button>
+        <span class="numbers">  
+            <button onclick="pressBtn(7)">7</button>
+            <button onclick="pressBtn(8)">8</button>
+            <button onclick="pressBtn(9)">9</button>   
+        </span>
+            <button><i class="fa-solid fa-xmark"></i></button>
+        <span class="numbers">            
+            <button onclick="pressBtn(4)">4</button>
+            <button onclick="pressBtn(5)">5</button>
+            <button onclick="pressBtn(6)">6</button>   
+            </span>
+        <button>-</button>
+        <span class="numbers">                 
+            <button onclick="pressBtn(1)">1</button>
+            <button onclick="pressBtn(2)">2</button>
+            <button onclick="pressBtn(3)">3</button>   
+        </span>
+            <button onclick="add()">+</button>
+       <span class="numbers">       
+            <button>+/-</button>
+            <button onclick="pressBtn(0)">0</button>
+            <button>.</button>
+       </span>
+       <span class="equalsnumber">  
+            <button onclick="equals()">=</button>
+       </span>
+    </span>
+ </div>
+
+</div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
